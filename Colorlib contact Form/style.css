@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 112, 42);
+}
+.continer {
+    background-color: aliceblue;
+    width: 22%;
+    height: max-content;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.contant {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+.contant h1 {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    color: gray;
+}
+.contant h5 {
+    margin: 10px 10px 15px 10px;
+    color: gray;
+    font-size: 14px;
+}
+.contant input {
+    width: 94%;
+    height: 40px;
+    margin: 8px 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+.contant .area{
+    height: 120px;
+    width: 94%;
+    margin: 8px 10px;
+    padding: 5px;
+}
+.contant button {
+    width: 94%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(56, 112, 42);
+    color: white;
+    margin: 15px 10px;
+    border: 0;
+    font-size: 16px;
+}
+.contant article {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.contant a {
+    margin-left: 5px;
+}
